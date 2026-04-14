@@ -84,12 +84,10 @@ export const askToAssistant=async (req,res)=>{
       case 'google-search':
       case 'youtube-search':
       case 'youtube-play':
-      case 'youtube-open':
-      case 'google-open':
       case 'general':
       case  "calculator-open":
-      case "instagram-open":
-       case "facebook-open":
+      case "instagram-open": 
+       case "facebook-open": 
        case "weather-show" :
          return res.json({
             type,
